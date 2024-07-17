@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="petition" id="petition">
+
+    <h1 style="color: white; width: 25%;">Sign Our Petition 📢</h1>
+    <div class="petition-container">
+
+      <div class="petition-para">
+        <!-- info goes here -->
+        <p>
+          We, the undersigned, invite the scientific community to reconsider the current understanding of human evolution. Some intriguing evidence suggests a closer relationship between humans and pigs, which could shake up the traditional view of our descent from primates. This fun new perspective could revolutionize biomedical research, xenotransplantation, and genetics. We call for an open-minded investigation into these quirky findings, fostering a spirit of inquiry and progress in science. Your support in this petition can help pave the way for some truly groundbreaking (and maybe even oinking) discoveries!
+        </p>
+      </div>
+
+      <div class="signatures">
+        <h2>Signatures: </h2>
+        <p>🖊️ DJ from Brooklyn supports this.</p>
+        <p>🖊️ Amy from Queens supports this.</p>
+        <p>🖊️ Teresa from Harlem supports this.</p>
+        <p id="counter">🖊️ 3 people have signed this petition and support this.</p>
+      </div>
+
+    </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <!-- inputs go here -->
+      <label for="name-input">Name: </label>
+      <input id="name-input" type="text">
+
+      <label for="town-input">Town: </label>
+      <input id="town-input" type="text">
+
+      <label for="email-input">Email: </label>
+      <input id="email-input" type="text">
+    </form>
+
+    <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <!-- text here -->
+        <p id="thanks-modal-content">Placeholder</p>
+        <!-- button here (stretch feature) -->
+        <button id="modal-button">Close</button>
+      </div>
+      <!-- image here-->
+      <img id="modal-img" src="pig-face.png" width="50%" height="50%">
+    </div>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
